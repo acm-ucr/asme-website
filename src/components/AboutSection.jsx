@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <div>
       <Title />
-      AboutSection
+      test checks
     </div>
   );
 };
