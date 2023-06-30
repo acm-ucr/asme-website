@@ -27,9 +27,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${abel.variable}`}>
-      <body className={`w-screen min-h-screen`}>
+      <body>
         <Navigation />
-        <div className="w-screen min-h-screen overflow-hidden">{children}</div>
+        {children}
         <Footer />
       </body>
     </html>
