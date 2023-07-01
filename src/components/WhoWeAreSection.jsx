@@ -6,17 +6,17 @@ const WhoWeAreSection = () => {
       <div className="flex  relative">
         <div className="flex flex-col">
           <div className="w-40 h-32">
-            <div className="bg-[#6BABCF] w-32 h-3"></div>
-            <div className="bg-white absolute mt-2 mx-28 px-4 text-[#38769F] font-poppins font-bold p-1 text-2xl inline-flex items-center">
+            <div className="bg-asme-blue-200 w-32 h-3"></div>
+            <div className="bg-white absolute mt-2 mx-28 px-4 text-asme-blue-400 font-poppins font-bold p-1 text-2xl inline-flex items-center">
               Who We Are
-              <FaGear className="inline-flex ml-2 text-[#B8D9E9]" />
+              <FaGear className="inline-flex ml-2 text-asme-blue-100" />
             </div>
-            <div className="bg-[#B8D9E9] w-40 h-32"></div>
+            <div className="bg-asme-blue-100 w-40 h-32"></div>
           </div>
           <div className="w-40 h-32 relative">
-            <div className="bg-[#6BABCF] w-2 h-2/3 inline-block right-6 top-3 absolute "></div>
-            <div className="bg-[#38769F] w-2 h-1/2 inline-block right-3 top-3 absolute "></div>
-            <div className="bg-[#1A5582] w-2 h-full inline-block right-0 top-3 absolute "></div>
+            <div className="bg-asme-blue-200 w-2 h-2/3 inline-block right-6 top-3 absolute "></div>
+            <div className="bg-asme-blue-400 w-2 h-1/2 inline-block right-3 top-3 absolute "></div>
+            <div className="bg-asme-blue-500 w-2 h-full inline-block right-0 top-3 absolute "></div>
           </div>
         </div>
         <div className="flex flex-col">
@@ -33,11 +33,11 @@ const WhoWeAreSection = () => {
             experienced engineers, other students, and to learn marketable
             skills.
           </p>
-          <button className=" font-poppins cursor-pointer hover:bg-[#38769F] hover:text-white w-40 text-[#38769F] border-2 border-[#38769F] p-1 ml-3 mt-3">
+          <button className=" font-poppins cursor-pointer hover:bg-asme-blue-400 hover:text-white w-40 text-asme-blue-400 border-2 border-asme-blue-400 p-1 ml-3 mt-3">
             Upcoming Events
           </button>
         </div>
-        <p className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-[#D7E3EB] rotate-90 text-6xl h-full absolute -right-14 top-6">
+        <p className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow rotate-90 text-6xl h-full absolute -right-14 top-6">
           WHO WE ARE
         </p>
       </div>
