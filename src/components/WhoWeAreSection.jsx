@@ -26,11 +26,12 @@ const WhoWeAreSection = () => {
             because we understand the need for competent engineers in the world.
             Through our various projects that we are involved in, we can gain
             invaluable engineering-experience before moving into the workforce.
-            As they say, &quot;it&apos;s not about what you know, but who you know.&quot; We
-            have a growing network of talented students/engineers. Through our
-            professional development, outreach and volunteering events, and
-            workshops, this is your chance to meet experienced engineers, other
-            students, and to learn marketable skills.
+            As they say, &quot;it&apos;s not about what you know, but who you
+            know.&quot; We have a growing network of talented
+            students/engineers. Through our professional development, outreach
+            and volunteering events, and workshops, this is your chance to meet
+            experienced engineers, other students, and to learn marketable
+            skills.
           </p>
           <button className=" font-poppins cursor-pointer hover:bg-[#38769F] hover:text-white w-40 text-[#38769F] border-2 border-[#38769F] p-1 ml-3 mt-3">
             Upcoming Events
