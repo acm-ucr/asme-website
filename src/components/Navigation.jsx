@@ -7,6 +7,7 @@ import { FaBars } from "react-icons/fa";
 import MenuItem from "./MenuItem";
 import { useState } from "react";
 import logo from "../../public/logo.png";
+import Image from "next/image";
 
 const items = [
   {
@@ -33,7 +34,7 @@ const Navigation = () => {
   return (
     <>
       <Navbar
-        className="flex flex-col justify-between bg-asme-white opacity-[85%] m-0 p-0"
+        className="flex flex-col justify-between bg-asme-white opacity-[85%] m-0 p-0 h-16"
         collapseOnSelect
         expand="md"
         fixed="top"
@@ -45,8 +46,8 @@ const Navigation = () => {
               className="no-underline m-0"
               onClick={() => setSelected("Logo")}
             >
-              <div className="mt-1 mb-2 ml-2 flex justify-center items-center font-poppins text-white text-5xl">
-                <img src={logo} className="w-10 mr-2" />
+              <div className=" ml-2 flex justify-start items-start">
+                <Image src={logo} className="w-[80%] m-0 p-0" />
               </div>
             </Link>
           </Navbar.Brand>
