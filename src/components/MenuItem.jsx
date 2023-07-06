@@ -19,7 +19,7 @@ const MenuItem = ({
   return (
     <Nav.Link as={Link} href={link} eventKey={index} className="">
       <div
-        className="w-fit relative mx-2"
+        className="w-fit relative mx-2.5"
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
         onMouseOver={onMouseOver}
@@ -29,7 +29,7 @@ const MenuItem = ({
         <p
           className={`${
             hover || router.asPath === link ? "opacity-70" : "opacity-100"
-          }   mb-0 text-asme-blue-500 text-xl ${
+          }   mb-0 text-asme-blue-500 text-lg ${
             selected ? "font-bold" : "font-normal"
           } p-0`}
         >
