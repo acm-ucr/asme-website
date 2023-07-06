@@ -52,7 +52,7 @@ const Navigation = () => {
           </Navbar.Brand>
           <div className="flex flex-row w-full justify-end ">
             <Navbar.Collapse className="w-full items-center md:justify-end justify-center">
-              <Nav className="text-2xl font-poppins flex justify-evenly items-center">
+              <Nav className="font-poppins flex justify-evenly items-center pr-2">
                 {items.map((item, index) => (
                   <MenuItem
                     text={item.name}
