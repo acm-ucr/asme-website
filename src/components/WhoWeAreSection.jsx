@@ -37,7 +37,7 @@ const WhoWeAreSection = () => {
             Upcoming Events
           </button>
         </div>
-        <p className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow rotate-90 text-6xl h-full absolute -right-14 top-6">
+        <p className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow rotate-90 text-6xl h-full absolute -right-12 top-6">
           WHO WE ARE
         </p>
       </div>
