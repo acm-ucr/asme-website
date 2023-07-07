@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        // Note: use root folder for static assets served from public/
+        header: "url('/header.png')",
+        logo: "url('/logo.png')",
+      },
       colors: {
         asme: {
           "blue-100": "#B8D9E9",
@@ -15,7 +20,8 @@ module.exports = {
           "blue-400": "#38769F",
           "blue-500": "#1A5582",
           "blue-600": "#133A5B",
-          transparentBlue: "#233646",
+          blue: "#233646",
+          transparentBlue: "#233646D9",
           textShadow: "#D7E3EB",
           white: "#FFFFFF",
           black: "#000000",
