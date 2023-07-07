@@ -39,19 +39,17 @@ const Navigation = () => {
         expand="md"
         fixed="top"
       >
-        <div className="flex flex-row w-full justify-between m-0">
-          <Navbar.Brand>
+        <div className="flex flex-row w-full justify-between m-0 items-center">
+          <Navbar.Brand className="m-0 p-0 flex items-center">
             <Link
               href="/"
-              className="no-underline m-0"
+              className="no-underline m-0 flex items-center p-0"
               onClick={() => setSelected("Logo")}
             >
-              <div className=" ml-2 flex justify-start items-start">
-                <Image src={logo} className="w-[80%] m-0 p-0" />
-              </div>
+              <Image src={logo} className="m-0 p-0 w-48" />
             </Link>
           </Navbar.Brand>
-          <div className="flex flex-row w-full justify-end ">
+          <div className="flex flex-row w-full justify-end items-center">
             <Navbar.Collapse className="w-full items-center md:justify-end justify-center">
               <Nav className="font-poppins flex justify-evenly items-center pr-2">
                 {items.map((item, index) => (
