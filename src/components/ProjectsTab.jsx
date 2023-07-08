@@ -15,7 +15,7 @@ const ProjectsTab = () => {
           BattleBots
         </text>
         <p
-          className="font-abel"
+          className="font-abel text-asme-blue-500"
           style={{
             paddingLeft: "20px",
             paddingRight: "160px",
