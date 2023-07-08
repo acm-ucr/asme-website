@@ -26,7 +26,7 @@ const JoinCard = () => {
           >
             <button
               className=" bg-asme-blue-600 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-600 font-poppins font-semibold"
-              style={{ width: "40%", margin: "5%" }}
+              style={{ margin: "5%" }}
             >
               Join
             </button>
@@ -57,7 +57,7 @@ const JoinCard = () => {
           >
             <button
               className="bg-asme-blue-500 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-500 font-poppins font-semibold"
-              style={{ width: "40%", margin: "5%" }}
+              style={{ margin: "5%" }}
             >
               Join
             </button>
@@ -87,7 +87,7 @@ const JoinCard = () => {
           >
             <button
               className="bg-asme-blue-400 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-400 font-poppins font-semibold"
-              style={{ width: "40%", margin: "5%" }}
+              style={{ margin: "5%" }}
             >
               Join
             </button>
@@ -117,7 +117,7 @@ const JoinCard = () => {
           >
             <button
               className="bg-asme-blue-200 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-200 font-poppins font-semibold"
-              style={{ width: "40%", margin: "5%" }}
+              style={{ margin: "5%" }}
             >
               Join
             </button>
