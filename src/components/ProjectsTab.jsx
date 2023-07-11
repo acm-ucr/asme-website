@@ -11,14 +11,7 @@ const ProjectsTab = () => {
         <text className="text-2xl flex-wrap font-poppins font-bold text-asme-blue-500 pl-5">
           BattleBots
         </text>
-        <p
-          className="font-abel text-asme-blue-500"
-          style={{
-            paddingLeft: "20px",
-            paddingRight: "160px",
-            paddingTop: "10px",
-          }}
-        >
+        <p className="font-abel text-asme-blue-500 pl-5 pr-40 pt-2.5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore
         </p>
