@@ -4,10 +4,7 @@ import { FaEnvelope, FaLink, FaFacebook, FaInstagram } from "react-icons/fa6";
 const JoinCard = () => {
   return (
     <div className="flex flex-wrap justify-center">
-      <div
-        className="flex flex-col bg-asme-blue-600"
-        style={{ margin: "30px", width: "230px", height: "230px" }}
-      >
+      <div className="flex flex-col bg-asme-blue-600 m-[30px] w-[230px] h-[230px]">
         <div
           className="card bg-transparent rounded-none text-center w-full"
           style={{ border: "none" }}
@@ -33,10 +30,7 @@ const JoinCard = () => {
           </a>
         </div>
       </div>
-      <div
-        className="flex flex-col bg-asme-blue-500"
-        style={{ margin: "30px", width: "230px", height: "230px" }}
-      >
+      <div className="flex flex-col bg-asme-blue-500 m-[30px] w-[230px] h-[230px]">
         <div
           className="card bg-transparent rounded-none text-center w-full"
           style={{ border: "none" }}
@@ -65,10 +59,7 @@ const JoinCard = () => {
         </div>
       </div>
 
-      <div
-        className="flex flex-col bg-asme-blue-400"
-        style={{ margin: "30px", width: "230px", height: "230px" }}
-      >
+      <div className="flex flex-col bg-asme-blue-400 m-[30px] w-[230px] h-[230px]">
         <div
           className="card bg-transparent rounded-none text-center w-full"
           style={{ border: "none" }}
@@ -95,10 +86,7 @@ const JoinCard = () => {
         </div>
       </div>
 
-      <div
-        className="flex flex-col bg-asme-blue-200"
-        style={{ margin: "30px", width: "230px", height: "230px" }}
-      >
+      <div className="flex flex-col bg-asme-blue-200 m-[30px] w-[230px] h-[230px]">
         <div
           className="card bg-transparent rounded-none text-center w-full"
           style={{ border: "none" }}
