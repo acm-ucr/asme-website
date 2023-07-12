@@ -8,7 +8,6 @@ const ProjectsSection = () => {
       <ProjectsTab />
     </div>
   );
-  // return <div>ProjectsSection</div>;
 };
 
 export default ProjectsSection;
