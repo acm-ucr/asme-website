@@ -18,7 +18,6 @@ const ProjectsTab = () => {
       </div>
     </div>
   );
-  // return <div>ProjectsTab</div>;
 };
 
 export default ProjectsTab;
