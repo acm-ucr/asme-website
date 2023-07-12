@@ -3,7 +3,7 @@ import { FaEnvelope, FaLink, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 const JoinCard = () => {
   return (
-    <div className="flex flex-wrap" style={{ justifyContent: "center" }}>
+    <div className="flex flex-wrap justify-center">
       <div
         className="flex flex-col bg-asme-blue-600"
         style={{ margin: "30px", width: "230px", height: "230px" }}
