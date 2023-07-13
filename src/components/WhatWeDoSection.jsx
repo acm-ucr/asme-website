@@ -3,7 +3,7 @@ import { FaGear } from "react-icons/fa6";
 
 const WhatWeDoSection = () => {
   return (
-    <div className="flex relative top-32" style={{ height: "212px" }}>
+    <div className="flex relative mt-32" style={{ height: "212px" }}>
       <div className="flex flex-col" style={{ height: "96px", width: "330px" }}>
         <div
           className="bg-asme-blue-200 absolute left-20"
