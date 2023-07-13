@@ -6,7 +6,10 @@ const WhatWeDoSection = () => {
   return (
     <div>
       <div className="flex relative mt-32" style={{ height: "212px" }}>
-        <div className="flex flex-col" style={{ height: "96px", width: "330px" }}>
+        <div
+          className="flex flex-col"
+          style={{ height: "96px", width: "330px" }}
+        >
           <div
             className="bg-asme-blue-200 absolute left-20"
             style={{ width: "250px", height: "72px" }}
@@ -34,8 +37,8 @@ const WhatWeDoSection = () => {
         </div>
       </div>
 
-      <FocusCard/>
-    </div>  
+      <FocusCard />
+    </div>
   );
 };
 
