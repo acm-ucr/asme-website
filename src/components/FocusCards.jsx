@@ -26,7 +26,7 @@ const cardList = [
 ];
 const FocusCards = () => {
   return (
-    <Row className="w-2/3">
+    <Row className="w-2/3 my-12">
       {cardList.map((card, index) => (
         <Col xs={12} md={4} className="p-3" key={index}>
           <FocusCard
