@@ -2,7 +2,7 @@ import React from "react";
 import { FaGear } from "react-icons/fa6";
 const WhoWeAreSection = () => {
   return (
-    <div className="flex items-center relative h-[600px] ">
+    <div className="flex items-center relative h-[600px] w-full overflow-hidden">
       <div className="flex flex-col">
         <div className="w-40 h-32">
           <div className="bg-asme-blue-200 w-32 h-3"></div>
