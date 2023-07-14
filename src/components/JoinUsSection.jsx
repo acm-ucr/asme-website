@@ -4,7 +4,7 @@ import JoinCards from "./JoinCards.jsx";
 
 const JoinUsSection = () => {
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full flex flex-col items-center overflow-hidden">
       <div className="w-full">
         <div className="m-[5%] relative">
           <div className="bg-asme-blue-100 w-[30%] h-20 shadow-[1rem_-0.7rem_0_0] shadow-asme-blue-200 relative">
