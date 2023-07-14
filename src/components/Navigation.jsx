@@ -46,7 +46,7 @@ const Navigation = () => {
               className="no-underline m-0 flex items-center p-0"
               onClick={() => setSelected("Logo")}
             >
-              <Image src={logo} className="m-0 p-0 w-48" />
+              <Image src={logo} className="m-0 p-0 w-48" alt="logo" />
             </Link>
           </Navbar.Brand>
           <div className="flex flex-row w-full justify-end items-center">
