@@ -3,11 +3,8 @@ import { FaEnvelope, FaLink, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 const JoinCard = () => {
   return (
-    <div className="flex flex-wrap" style={{ justifyContent: "left" }}>
-      <div
-        className="flex flex-col bg-asme-blue-600"
-        style={{ margin: "3.5%", width: "18%" }}
-      >
+    <div className="flex flex-wrap justify-center">
+      <div className="flex flex-col bg-asme-blue-600 m-[30px] w-[230px] h-[230px]">
         <div
           className="card bg-transparent rounded-none text-center w-full"
           style={{ border: "none" }}
@@ -24,19 +21,13 @@ const JoinCard = () => {
             href="mailto:ucr.asme@gmail.com"
             style={{ color: "white", marginBottom: "10%" }}
           >
-            <button
-              className=" bg-asme-blue-600 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-600 font-poppins font-semibold"
-              style={{ width: "40%", margin: "5%" }}
-            >
+            <button className=" bg-asme-blue-600 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-600 font-poppins font-semibold w-2/5 m-3">
               Join
             </button>
           </a>
         </div>
       </div>
-      <div
-        className="flex flex-col bg-asme-blue-500"
-        style={{ margin: "3.5%", width: "18%" }}
-      >
+      <div className="flex flex-col bg-asme-blue-500 m-[30px] w-[230px] h-[230px]">
         <div
           className="card bg-transparent rounded-none text-center w-full"
           style={{ border: "none" }}
@@ -55,20 +46,14 @@ const JoinCard = () => {
             href="https://highlanderlink.ucr.edu/organization/asme"
             style={{ color: "white", marginBottom: "10%" }}
           >
-            <button
-              className="bg-asme-blue-500 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-500 font-poppins font-semibold"
-              style={{ width: "40%", margin: "5%" }}
-            >
+            <button className="bg-asme-blue-500 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-500 font-poppins font-semibold w-2/5 m-3">
               Join
             </button>
           </a>
         </div>
       </div>
 
-      <div
-        className="flex flex-col bg-asme-blue-400"
-        style={{ margin: "3.5%", width: "18%" }}
-      >
+      <div className="flex flex-col bg-asme-blue-400 m-[30px] w-[230px] h-[230px]">
         <div
           className="card bg-transparent rounded-none text-center w-full"
           style={{ border: "none" }}
@@ -85,20 +70,14 @@ const JoinCard = () => {
             href="https://www.facebook.com/groups/1694944664070229/"
             style={{ color: "white", marginBottom: "10%" }}
           >
-            <button
-              className="bg-asme-blue-400 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-400 font-poppins font-semibold"
-              style={{ width: "40%", margin: "5%" }}
-            >
+            <button className="bg-asme-blue-400 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-400 font-poppins font-semibold w-2/5 m-3">
               Join
             </button>
           </a>
         </div>
       </div>
 
-      <div
-        className="flex flex-col bg-asme-blue-200"
-        style={{ margin: "3.5%", width: "18%" }}
-      >
+      <div className="flex flex-col bg-asme-blue-200 m-[30px] w-[230px] h-[230px]">
         <div
           className="card bg-transparent rounded-none text-center w-full"
           style={{ border: "none" }}
@@ -115,10 +94,7 @@ const JoinCard = () => {
             href="https://www.instagram.com/ucr.asme/"
             style={{ color: "white", marginBottom: "10%" }}
           >
-            <button
-              className="bg-asme-blue-200 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-200 font-poppins font-semibold"
-              style={{ width: "40%", margin: "5%" }}
-            >
+            <button className="bg-asme-blue-200 border pt-1 pb-1 pl-4 pr-4 outline-white hover:bg-white hover:text-asme-blue-200 font-poppins font-semibold w-2/5 m-3">
               Join
             </button>
           </a>
