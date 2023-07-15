@@ -49,12 +49,6 @@ const Navigation = () => {
               <Image src={logo} className="m-0 p-0 w-48" alt="logo" />
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle
-            className="list-unstyled !text-transparent"
-            aria-controls="basic-navbar-nav"
-          >
-            <FaBars className=" text-asme-blue-500 text-xl" />
-          </Navbar.Toggle>
           <Navbar.Collapse className="items-center md:justify-end justify-center">
             <Nav className="font-poppins flex justify-evenly items-center pr-2">
               {items.map((item, index) => (
@@ -72,7 +66,13 @@ const Navigation = () => {
                 />
               ))}
             </Nav>
-          </Navbar.Collapse>
+          </Navbar.Collapse>{" "}
+          <Navbar.Toggle
+            className="list-unstyled !text-transparent"
+            aria-controls="basic-navbar-nav"
+          >
+            <FaBars className=" text-asme-blue-500 text-xl" />
+          </Navbar.Toggle>
         </div>
       </Navbar>
     </>
