@@ -33,7 +33,7 @@ const WhoWeAreSection = () => {
             experienced engineers, other students, and to learn marketable
             skills.
           </p>
-          <button className="font-poppins cursor-pointer hover:bg-asme-blue-400 hover:text-white w-40 text-asme-blue-400 border-2 border-asme-blue-400 p-1 ml-3 mt-3">
+          <button className=" font-poppins cursor-pointer hover:bg-asme-blue-400 hover:text-white w-40 text-asme-blue-400 border-2 border-asme-blue-400 p-1 ml-3 mt-3">
             Upcoming Events
           </button>
         </div>
