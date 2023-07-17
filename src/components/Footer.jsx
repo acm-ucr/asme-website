@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div className="w-full flex bg-gradient-to-b from-asme-blue-600 to-[#2E5678] h-60 relative">
-        <Image src={logo} className="w-1/6 absolute bottom-0" />
+        <Image alt="logo" src={logo} className="w-1/6 absolute bottom-0" />
         <div className="flex flex-row h-1/2 absolute right-8 bottom-4">
           <div className="flex flex-col">
             <p className="text-white m-0 text-3xl">contact us</p>
