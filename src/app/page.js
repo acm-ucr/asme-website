@@ -5,7 +5,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import JoinUsSection from "@/components/JoinUsSection";
 const Home = () => {
   return (
-    <div>
+    <div className="w-screen">
       <Landing />
       <WhoWeAreSection />
       <WhatWeDoSection />

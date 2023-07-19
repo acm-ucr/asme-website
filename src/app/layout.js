@@ -9,7 +9,7 @@ const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font-popping",
+  variable: "--font-poppins",
 });
 
 const abel = Abel({
@@ -27,9 +27,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${abel.variable}`}>
-      <body className={`w-screen min-h-screen ${poppins.className}`}>
+      <body className="flex flex-col items-center w-full">
         <Navigation />
-        <div className="w-screen min-h-screen overflow-hidden">{children}</div>
+        {children}
         <Footer />
       </body>
     </html>
