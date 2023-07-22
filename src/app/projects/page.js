@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectDescription from "@/components/ProjectDescription";
-// import Image from "next/image";
 import image1 from "public/battlebot1.png";
 import image2 from "public/battlebot2.png";
 
