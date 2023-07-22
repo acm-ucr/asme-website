@@ -8,7 +8,7 @@ const ProjectDescription = (props) => {
   const picture2 = props.picture2;
 
   return (
-    <div className="pt-4 relative">
+    <div className="relative">
       <div className="flex flex-row relative h-40">
         <div className="bg-asme-blue-400 w-56 h-16 top-12 absolute"></div>
         <text className="bg-asme-blue-600 text-white text-2xl font-poppins font-bold w-52 h-16 top-14 pl-16 pt-3 absolute">
@@ -23,12 +23,12 @@ const ProjectDescription = (props) => {
 
         <div className="flex flex-row justify-center">
           <Image
-            className="w-[520px] h-[350px] p-3"
+            className="w-[520px] h-[350px] pl-20 pt-3 pr-1"
             src={picture1}
             alt="no image"
           />
           <Image
-            className="w-[520px] h-[350px] p-3"
+            className="w-[520px] h-[350px] pr-20 pt-3 pl-1"
             src={picture2}
             alt="no image"
           />
