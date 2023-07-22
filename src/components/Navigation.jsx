@@ -34,7 +34,7 @@ const Navigation = () => {
   return (
     <>
       <Navbar
-        className="flex flex-col justify-between bg-asme-white opacity-[85%] m-0 p-0 h-16"
+        className="flex flex-col justify-between bg-asme-white opacity-[85%] m-0 p-0 min-h-[64px] w-screen"
         collapseOnSelect
         expand="md"
         fixed="top"
@@ -46,35 +46,33 @@ const Navigation = () => {
               className="no-underline m-0 flex items-center p-0"
               onClick={() => setSelected("Logo")}
             >
-              <Image src={logo} className="m-0 p-0 w-48" />
+              <Image src={logo} className="m-0 p-0 w-48" alt="logo" />
             </Link>
           </Navbar.Brand>
-          <div className="flex flex-row w-full justify-end items-center">
-            <Navbar.Collapse className="w-full items-center md:justify-end justify-center">
-              <Nav className="font-poppins flex justify-evenly items-center pr-2">
-                {items.map((item, index) => (
-                  <MenuItem
-                    text={item.name}
-                    link={`/${item.link}`}
-                    name={item.name}
-                    key={index}
-                    index={index}
-                    onMouseOver={() => setIsHovered(item.name)}
-                    onMouseOut={() => setIsHovered(0)}
-                    selected={selected == item.name}
-                    onClick={() => setSelected(item.name)}
-                    Hovered={isHovered === item.name}
-                  />
-                ))}
-              </Nav>
-            </Navbar.Collapse>
-            <Navbar.Toggle
-              className="list-unstyled !text-transparent"
-              aria-controls="basic-navbar-nav"
-            >
-              <FaBars className=" text-asme-blue-500 text-xl" />
-            </Navbar.Toggle>
-          </div>
+          <Navbar.Collapse className="items-center md:justify-end justify-center">
+            <Nav className="font-poppins flex justify-evenly items-center pr-2">
+              {items.map((item, index) => (
+                <MenuItem
+                  text={item.name}
+                  link={`/${item.link}`}
+                  name={item.name}
+                  key={index}
+                  index={index}
+                  onMouseOver={() => setIsHovered(item.name)}
+                  onMouseOut={() => setIsHovered(0)}
+                  selected={selected == item.name}
+                  onClick={() => setSelected(item.name)}
+                  Hovered={isHovered === item.name}
+                />
+              ))}
+            </Nav>
+          </Navbar.Collapse>{" "}
+          <Navbar.Toggle
+            className="list-unstyled !text-transparent"
+            aria-controls="basic-navbar-nav"
+          >
+            <FaBars className=" text-asme-blue-500 text-xl" />
+          </Navbar.Toggle>
         </div>
       </Navbar>
     </>
