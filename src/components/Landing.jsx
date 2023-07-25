@@ -27,7 +27,7 @@ const Landing = () => {
           ASME seeks to develop well-rounded engineers at UC Riverside that are
           experienced and ready for the real-world
         </p>
-        <div>
+        <div className="mt-4">
           <Link
             href="/join"
             className="text-white no-underline right font-poppins border-white border-2 border-solid px-4 md:py-2 text-sm md:text-lg"
