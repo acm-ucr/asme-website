@@ -30,9 +30,9 @@ const joinList = [
 ];
 const JoinCards = () => {
   return (
-    <Row className="w-4/5">
+    <Row className="w-[95%] lg:w-4/5 ">
       {joinList.map((join, index) => (
-        <Col xs={6} md={3} className="p-3" key={index}>
+        <Col xs={6} md={3} className="mb-4 lg:p-3" key={index}>
           <JoinCard
             text={join.text}
             icon={join.icon}

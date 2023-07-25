@@ -7,7 +7,7 @@ const JoinCard = ({ text, icon, link, bgColor }) => {
       className={`flex flex-col ${bgColor} items-center aspect-square justify-between py-4 px-2`}
     >
       {icon}
-      <p className="text-light font-poppins font-semibold text-xl m-0">
+      <p className="text-light font-poppins font-semibold text-lg lg:text-xl mb-4 lg:m-0">
         {text}
       </p>
       <Link
