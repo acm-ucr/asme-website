@@ -1,10 +1,11 @@
 import React from "react";
-import Title from "@/components/Title";
-
+import Header from "@/components/Header";
+import AboutSection from "@/components/AboutSection";
 const about = () => {
   return (
-    <div>
-      <Title />
+    <div className="w-full">
+      <Header />
+      <AboutSection />
     </div>
   );
 };
