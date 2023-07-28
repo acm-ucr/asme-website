@@ -4,7 +4,7 @@ import AboutSection from "@/components/AboutSection";
 const about = () => {
   return (
     <div className="w-full">
-      <Header />
+      <Header title="About" />
       <AboutSection />
     </div>
   );
