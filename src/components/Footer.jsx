@@ -47,6 +47,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={index}
+                className="hover:scale-90 transition-transform duration-300"
               >
                 {icon}
               </a>
