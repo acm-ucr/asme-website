@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGear } from "react-icons/fa6";
 import Image from "next/image";
-import Link from "next/link";
 
 const Landing = () => {
   return (
@@ -28,12 +27,11 @@ const Landing = () => {
           experienced and ready for the real-world
         </p>
         <div className="mt-4">
-          <Link
-            href="/join"
-            className="text-white no-underline right font-poppins border-white border-2 border-solid px-4 md:py-2 text-sm md:text-lg"
-          >
-            Join Us
-          </Link>
+          <a href="" style={{ color: "white" }}>
+            <button className="no-underline right font-poppins border-white border-2 border-solid px-4 md:py-2 text-sm md:text-lg hover:bg-white hover:text-asme-transparentBlue hover:scale-110 transition hover:duration-200 ease-in-out">
+              Join Us
+            </button>
+          </a>
         </div>
       </div>
     </div>
