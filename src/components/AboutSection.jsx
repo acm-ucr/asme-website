@@ -30,9 +30,16 @@ const AboutSection = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-          <div className="flex flex-row 2-full justify-center gap-4">
-            <Image src={ASME1} />
-            <Image src={ASME2} />
+          <div className="flex flex-wrap w-full justify-center gap-4 p-8">
+            {[ASME1, ASME2].map((src, index) => (
+              <Image
+                src={src}
+                key={index}
+                sizes="(max-width: 768px) 80vw,
+                  50%"
+                className="max-w-lg"
+              />
+            ))}
           </div>
         </div>
       </div>
