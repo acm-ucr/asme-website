@@ -24,37 +24,34 @@ const Footer = () => {
           </div>
           <div className="bg-white h-full w-1 lg:w-1.5 mx-3"></div>
           <div className="flex flex-col">
-            <a
-              href="https://www.instagram.com/ucr.asme/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram className="text-white mb-1" size={28} />
-            </a>
-
-            <a
-              href="mailto:ucr.asme@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaEnvelope className="text-white mb-1" size={28} />
-            </a>
-
-            <a
-              href="https://highlanderlink.ucr.edu/organization/asme"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLink className="text-white mb-1" size={28} />
-            </a>
-
-            <a
-              href="https://www.facebook.com/groups/1694944664070229/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebook className="text-white mb-1" size={28} />
-            </a>
+            {[
+              {
+                href: "https://www.instagram.com/ucr.asme/",
+                icon: <FaInstagram className="text-white mb-1" size={28} />,
+              },
+              {
+                href: "mailto:ucr.asme@gmail.com",
+                icon: <FaEnvelope className="text-white mb-1" size={28} />,
+              },
+              {
+                href: "https://highlanderlink.ucr.edu/organization/asme",
+                icon: <FaLink className="text-white mb-1" size={28} />,
+              },
+              {
+                href: "https://www.facebook.com/groups/1694944664070229/",
+                icon: <FaFacebook className="text-white mb-1" size={28} />,
+              },
+            ].map(({ href, icon }, index) => (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={index}
+                className="hover:scale-90 transition-transform duration-300"
+              >
+                {icon}
+              </a>
+            ))}
           </div>
         </div>
       </div>
