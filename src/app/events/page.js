@@ -1,15 +1,13 @@
-import UpcomingEvents from "@/components/UpcomingEvents";
 import React from "react";
 import Header from "@/components/Header";
+import EventDescriptions from "@/components/EventDescriptions";
 
 const events = () => {
   return (
-    <>
-      <Header title="Events" />
-      <div className="w-full p-8 md:p-32">
-        <UpcomingEvents></UpcomingEvents>
-      </div>
-    </>
+    <div>
+      <Header title="Events" src={events} />
+      <EventDescriptions />
+    </div>
   );
 };
 

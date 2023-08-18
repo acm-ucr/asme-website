@@ -1,37 +1,36 @@
 import React from "react";
 
-const EventDescription = () => {
+const EventDescription = ({ event }) => {
   return (
-    <div className="flex flex-col">
-      <div>
-        <p className="font-bold text-2xl ml-3 mb-0 font-poppins">Events Name</p>
-        <div className="flex flex-row items-center">
-          <div className="w-2 h-2 bg-asme-blue-400 rotate-45"></div>
-          <div className="w-32 h-0.5 bg-asme-blue-400"></div>
-        </div>
-        <p className="text-asme-blue-200 inline-block ml-2 font-bold font-poppins">
-          3.23.2023 12:00pm - 2:00pm
-        </p>
-        <p className="text-asme-blue-200 inline-block font-bold font-poppins">
-          Location Room 123
-        </p>
+    <div className="w-full flex-col flex my-5">
+      <div className="md:-translate-x-5 font-poppins text-black text-xl md:text-2xl font-bold self-start">
+        {event.title}
       </div>
-      <div className="flex flex-col ml-16">
-        <p className="text-xl font-poppins mb-0.5">
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud
-        </p>
-        <p className="text-xl font-poppins mb-0.5">
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in
-        </p>
-        <p className="text-xl inline-flex flex-row font-poppins mb-0.5">
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepte
-          <div className="bg-asme-blue-100 text-white ml-12 pl-4 pr-8">
-            General Meeting
-          </div>
-        </p>
+      <div className="flex flex-row w-full -translate-x-2 md:-translate-x-10">
+        <div className="h-2.5 w-2.5 rotate-45 bg-asme-blue-400" />
+        <div className="translate-y-1 h-0.5 w-36 bg-asme-blue-400" />
+      </div>
+
+      <div className="flex flex-row font-poppins text-asme-blue-200 text-base">
+        <p className="m-0 ">{event.date}</p>
+        <p className="m-0 pl-2 pr-3">{event.time}</p>
+        <p className="m-0 font-bold">{event.location}</p>
+      </div>
+
+      <div className="py-3 font-poppins text-left text-black text-sm md:text-lg w-full">
+        {event.description}
+      </div>
+
+      <div
+        className={`w-40 font-poppins text-center text-sm md:text-lg self-end text-white ${
+          event.type == "Social"
+            ? "bg-asme-blue-400"
+            : event.type == "General Meeting"
+            ? "bg-asme-blue-200"
+            : "bg-asme-blue-300 text-black"
+        }`}
+      >
+        {event.type}
       </div>
     </div>
   );
