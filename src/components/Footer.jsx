@@ -7,46 +7,51 @@ const Footer = () => {
   return (
     <>
       <div className="w-full flex bg-gradient-to-b from-asme-blue-600 to-[#2E5678] h-60 relative">
-        <Image alt="logo" src={logo} className="w-1/6 absolute bottom-0" />
-        <div className="flex flex-row h-1/2 absolute right-8 bottom-4">
-          <div className="flex flex-col">
-            <p className="text-white m-0 text-3xl">contact us</p>
-            <p className="text-white m-0 text-3xl">900 University Ave,</p>
-            <p className="text-white m-0 text-3xl">Riverside, CA 92521</p>
+        <Image
+          alt="logo"
+          src={logo}
+          className=" w-1/3 lg:w-1/6 absolute bottom-0"
+        />
+        <div className="flex flex-row h-1/2 absolute right-4 lg:right-8 bottom-4">
+          <div className="flex flex-col h-full justify-end items-end">
+            <p className="text-white m-0 text-xl lg:text-3xl">contact us</p>
+            <p className="text-white m-0 text-lg lg:text-3xl">
+              900 University Ave,
+            </p>
+            <p className="text-white m-0 text-lg lg:text-3xl">
+              Riverside, CA 92521
+            </p>
           </div>
-          <div className="bg-white h-full w-1.5 mx-4"></div>
+          <div className="bg-white h-full w-1 lg:w-1.5 mx-3"></div>
           <div className="flex flex-col">
-            <a
-              href="https://www.instagram.com/ucr.asme/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram className="text-white mb-1" size={28} />
-            </a>
-
-            <a
-              href="mailto:ucr.asme@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaEnvelope className="text-white mb-1" size={28} />
-            </a>
-
-            <a
-              href="https://highlanderlink.ucr.edu/organization/asme"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLink className="text-white mb-1" size={28} />
-            </a>
-
-            <a
-              href="https://www.facebook.com/groups/1694944664070229/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebook className="text-white mb-1" size={28} />
-            </a>
+            {[
+              {
+                href: "https://www.instagram.com/ucr.asme/",
+                icon: <FaInstagram className="text-white mb-1" size={28} />,
+              },
+              {
+                href: "mailto:ucr.asme@gmail.com",
+                icon: <FaEnvelope className="text-white mb-1" size={28} />,
+              },
+              {
+                href: "https://highlanderlink.ucr.edu/organization/asme",
+                icon: <FaLink className="text-white mb-1" size={28} />,
+              },
+              {
+                href: "https://www.facebook.com/groups/1694944664070229/",
+                icon: <FaFacebook className="text-white mb-1" size={28} />,
+              },
+            ].map(({ href, icon }, index) => (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={index}
+                className="hover:scale-90 transition-transform duration-300"
+              >
+                {icon}
+              </a>
+            ))}
           </div>
         </div>
       </div>
