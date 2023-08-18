@@ -22,14 +22,13 @@ const EventDescription = ({ event }) => {
       </div>
 
       <div
-        className={
-          "w-40 font-poppins text-center text-sm md:text-lg self-end text-white" +
-          (event.type == "Social"
+        className={`w-40 font-poppins text-center text-sm md:text-lg self-end text-white ${
+          event.type == "Social"
             ? "bg-asme-blue-400"
             : event.type == "General Meeting"
             ? "bg-asme-blue-200"
-            : "bg-asme-blue-300 text-black")
-        }
+            : "bg-asme-blue-300 text-black"
+        }`}
       >
         {event.type}
       </div>
