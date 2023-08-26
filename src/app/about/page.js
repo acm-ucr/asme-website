@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "@/components/Header";
-import AboutSection from "@/components/AboutSection";
+import AboutSection from "@/components/home/AboutSection";
 const about = () => {
   return (
     <div className="w-full">

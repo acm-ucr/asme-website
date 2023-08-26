@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import ASME1 from "../../public/ASME1.png";
 import ASME2 from "../../public/ASME2.png";
-import Title from "./Title";
+import Title from "../Title";
 
 const AboutSection = () => {
   return (
