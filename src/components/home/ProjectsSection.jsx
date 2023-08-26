@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectsTab from "./ProjectsTab.jsx";
-import ProjectTitle from "./ProjectTitle.jsx";
+import ProjectTitle from "../ProjectTitle.jsx";
 
 const ProjectsSection = () => {
   return (
