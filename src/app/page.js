@@ -1,8 +1,8 @@
-import Landing from "@/components/Landing";
-import WhatWeDoSection from "@/components/WhatWeDoSection";
-import WhoWeAreSection from "@/components/WhoWeAreSection";
-import ProjectsSection from "@/components/ProjectsSection";
-import JoinUsSection from "@/components/JoinUsSection";
+import Landing from "@/components/home/Landing";
+import WhatWeDoSection from "@/components/home/WhatWeDoSection";
+import WhoWeAreSection from "@/components/home/WhoWeAreSection";
+import ProjectsSection from "@/components/home/ProjectsSection";
+import JoinUsSection from "@/components/home/JoinUsSection";
 const Home = () => {
   return (
     <div className="w-screen">
