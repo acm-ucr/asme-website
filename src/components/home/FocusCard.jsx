@@ -4,7 +4,7 @@ import React from "react";
 const FocusCard = ({ name, text, icon, bgColor }) => {
   return (
     <div
-      className={`flex flex-col justify-between aspect-square text-white ${bgColor} w-full !pr-0 p-8 md:p-4 lg:p-8 aspect-square`}
+      className={`flex flex-col justify-between aspect-square text-white ${bgColor} w-full !pr-0 p-8 md:p-4 lg:p-8 aspect-square animate-jump animate-duration-1000 animate-ease-out`}
     >
       <div className="flex justify-between items-start">
         {icon}
