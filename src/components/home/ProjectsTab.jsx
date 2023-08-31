@@ -5,8 +5,12 @@ import bot from "../../../public/battleBot.png";
 const ProjectsTab = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center w-2/3 items-center mt-8 md:mt-0">
-      <Image src={bot} className="w-60 h-52" alt="bot" />
-      <div className="flex flex-col w-3/5 md:ml-8">
+      <Image
+        src={bot}
+        className="w-60 h-52 animate-jump animate-duration-1000 animate-ease-out"
+        alt="bot"
+      />
+      <div className="flex flex-col w-3/5 md:ml-8 animate-fade-right animate-ease-linear">
         <p className="text-2xl flex-wrap font-poppins font-bold text-asme-blue-500">
           BattleBots
         </p>
