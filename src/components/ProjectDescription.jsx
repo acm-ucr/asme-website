@@ -18,7 +18,9 @@ const ProjectDescription = (props) => {
 
       <div>
         <div className="flex flex-row font-abel justify-center">
-          <p className="lg:w-[800px] lg:text-base text-sm w-72">{description}</p>
+          <p className="lg:w-[800px] lg:text-base text-sm w-72">
+            {description}
+          </p>
         </div>
 
         <div className="flex flex-col lg:flex-row justify-center items-center">
