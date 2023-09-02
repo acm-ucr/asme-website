@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "@/components/Header";
 import Board from "@/components/board/Board";
-import image from "public/Board.png";
+import image from "public/board.png";
 
 const board = () => {
   return (
