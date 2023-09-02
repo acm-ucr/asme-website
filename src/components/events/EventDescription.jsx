@@ -12,9 +12,9 @@ const EventDescription = ({ event }) => {
       </div>
 
       <div className="flex flex-row font-poppins text-asme-blue-200 text-base">
-        <p className="m-0 ">{event.date}</p>
-        <p className="m-0 pl-2 pr-3">{event.time}</p>
-        <p className="m-0 font-bold">{event.location}</p>
+        <p className="text-xs md:text-base m-0 ">{event.date}</p>
+        <p className="text-xs md:text-base m-0 pl-2 pr-3">{event.time}</p>
+        <p className="text-xs md:text-base m-0 font-bold">{event.location}</p>
       </div>
 
       <div className="py-3 font-poppins text-left text-black text-sm md:text-lg w-full">

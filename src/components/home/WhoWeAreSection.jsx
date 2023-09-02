@@ -3,13 +3,13 @@ import { FaGear } from "react-icons/fa6";
 const WhoWeAreSection = () => {
   return (
     <div className="flex flex-col md:flex-row items-start relative w-full overflow-hidden pt-12 md:pt-24">
-      <p className="whitespace-nowrap font-bold font-poppins text-asme-textShadow rotate-90 text-6xl absolute right-5 top-0 origin-top-left translate-x-full">
+      <p className="whitespace-nowrap font-bold font-poppins text-asme-textShadow rotate-90 text-6xl absolute right-5 top-6 origin-top-left translate-x-full animate-fade animate-duration-1000">
         WHO WE ARE
       </p>
       <div className="flex flex-col">
         <div className="w-40 m-0">
           <div className="bg-asme-blue-200 w-32 h-3" />
-          <div className="bg-white absolute mt-2 mx-12 md:mx-28 px-4 text-asme-blue-400 font-poppins font-bold p-1 text-lg md:text-2xl inline-flex items-center">
+          <div className="bg-white absolute mt-2 mx-12 md:mx-28 px-4 text-asme-blue-400 font-poppins font-bold p-1 text-lg md:text-2xl inline-flex items-center animate-fade-right animate-ease-linear">
             Who We Are
             <FaGear className="inline-flex ml-2 text-asme-blue-100" />
           </div>
@@ -22,7 +22,7 @@ const WhoWeAreSection = () => {
         </div>
       </div>
       <div className="flex flex-col relative">
-        <p className=" font-abel mb-1 leading-5 w-5/6 text-base md:text-xl mx-5 mt-6 md:mt-20">
+        <p className=" font-abel mb-1 leading-5 w-5/6 text-base md:text-xl mx-5 mt-6 md:mt-20 animate-fade-right animate-ease-linear">
           We are an organization that builds rockets, unmanned aircrafts, robots
           (among other things) out of a love for engineering and because we
           understand the need for competent engineers in the world. Through our
@@ -34,7 +34,7 @@ const WhoWeAreSection = () => {
           workshops, this is your chance to meet experienced engineers, other
           students, and to learn marketable skills.
         </p>
-        <button className=" font-poppins cursor-pointer hover:bg-asme-blue-400 hover:text-white w-40 text-asme-blue-400 border-2 border-asme-blue-400 p-1 m-5">
+        <button className=" font-poppins cursor-pointer hover:bg-asme-blue-400 hover:text-white w-40 text-asme-blue-400 border-2 border-asme-blue-400 p-1 m-5 animate-fade-right animate-ease-linear">
           Upcoming Events
         </button>
       </div>
