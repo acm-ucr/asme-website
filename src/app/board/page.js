@@ -1,11 +1,22 @@
 import React from "react";
 import Header from "@/components/Header";
+import Board from "@/components/Board";
+import image from "public/Board.png";
 
 const board = () => {
   return (
-    <div className="w-full">
-      <Header title="Board" />
-      board
+    <div>
+      <div className="w-full">
+        <Header title="Board" />
+      </div>
+
+      <div>
+        <Board
+          image={image}
+          position="Position Title"
+          name="Firstname Lastname"
+        />
+      </div>
     </div>
   );
 };
