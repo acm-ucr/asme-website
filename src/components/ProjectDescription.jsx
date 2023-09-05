@@ -18,17 +18,19 @@ const ProjectDescription = (props) => {
 
       <div>
         <div className="flex flex-row font-abel justify-center">
-          <p className="w-[800px]">{description}</p>
+          <p className="lg:w-[800px] lg:text-base text-sm w-72">
+            {description}
+          </p>
         </div>
 
-        <div className="flex flex-row justify-center">
+        <div className="flex flex-col lg:flex-row justify-center items-center">
           <Image
-            className="w-[520px] h-[350px] pl-20 pt-3 pr-1"
+            className="lg:w-[520px] lg:h-[350px] lg:pl-20 pt-3 lg:pr-1 w-72"
             src={picture1}
             alt="no image"
           />
           <Image
-            className="w-[520px] h-[350px] pr-20 pt-3 pl-1"
+            className="lg:w-[520px] lg:h-[350px] lg:pr-20 pt-3 lg:pl-1 w-72"
             src={picture2}
             alt="no image"
           />
@@ -36,7 +38,7 @@ const ProjectDescription = (props) => {
       </div>
 
       <p
-        className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-6xl origin-top-left -rotate-90 pt-2"
+        className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl origin-top-left -rotate-90 pt-2"
         style={{ textTransform: "uppercase" }}
       >
         {name}
@@ -44,7 +46,7 @@ const ProjectDescription = (props) => {
 
       <div className="flex flex-row justify-end">
         <p
-          className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-6xl pt-2 justify-end rotate-90 -translate-y-full absolute origin-top-right top-[550px]"
+          className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl pt-2 justify-end rotate-90 -translate-y-full absolute origin-top-right lg:top-[550px] top-80"
           style={{ textTransform: "uppercase" }}
         >
           {name}
