@@ -1,13 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
-// probably improper use of tailwind, but doing otherwise would require changing project with color management and usage of style, maybe bg-clip-text could work but that's hard
-const HOVER_CLASS_MAPPING = {
-  "bg-asme-blue-600": "hover:!text-asme-blue-600",
-  "bg-asme-blue-500": "hover:!text-asme-blue-500",
-  "bg-asme-blue-400": "hover:!text-asme-blue-400",
-  "bg-asme-blue-300": "hover:!text-asme-blue-300",
-};
+import { HOVER_CLASS_MAPPING } from "@/data/joinCards";
 
 const JoinCard = ({ text, icon, link, bgColor }) => {
   return (

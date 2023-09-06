@@ -1,11 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Board = (props) => {
-  const image = props.image;
-  const position = props.position;
-  const name = props.name;
-
+const Board = ({ image, position, name }) => {
   return (
     <div className="p-5">
       <div className="h-80 w-96">
