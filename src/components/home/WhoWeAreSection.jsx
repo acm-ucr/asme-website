@@ -6,7 +6,7 @@ const WhoWeAreSection = () => {
       <p className="whitespace-nowrap font-bold font-poppins text-asme-textShadow rotate-90 text-6xl absolute right-5 top-6 origin-top-left translate-x-full animate-fade animate-duration-1000">
         WHO WE ARE
       </p>
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full">
         <div className="w-40 m-0">
           <div className="bg-asme-blue-200 w-32 h-3" />
           <div className="bg-white absolute mt-2 mx-12 md:mx-28 px-4 text-asme-blue-400 font-poppins font-bold p-1 text-lg md:text-2xl inline-flex items-center animate-fade-right animate-ease-linear">

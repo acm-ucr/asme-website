@@ -1,7 +1,7 @@
 import React from "react";
-import { FaGear } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
+import logo from "../../../public/logo.png";
 
 const Landing = () => {
   return (
@@ -9,9 +9,7 @@ const Landing = () => {
       <div className="absolute bottom-0 left-5 md:left-0 bg-white w-1/3 my-4 md:translate-x-1/2 shadow-[1rem_-1rem_0_0] shadow-asme-blue-400 z-10">
         <Image
           className="m-auto animate-fade-up animate-delay-[600ms]"
-          src="/logo.png"
-          width={456}
-          height={187}
+          src={logo}
           alt="logo"
         />
       </div>
@@ -19,10 +17,7 @@ const Landing = () => {
         <p className="animate-fade-up animate-delay-[300ms] animate-once text-right font-bold text-lg md:text-4xl w-11/12 border-r-8 border-asme-blue-100 m-0 pr-2">
           American Society of Mechanical Engineers at UCR (ASME)
         </p>
-        <div className="animate-fade-up animate-delay-[300ms] animate-once flex items-center w-3/5 md:w-4/5 gap-2">
-          <FaGear />
-          <div className="border-white border-2 border-solid w-full h-0 top-1/2"></div>
-        </div>
+        <div className="animate-fade-up animate-delay-[300ms] animate-once bg-white w-1/2 h-1 my-2" />
         <p className="animate-fade-up animate-delay-[500ms] animate-once text-right font-abel text-sm md:text-2xl m-0">
           ASME seeks to develop well-rounded engineers at UC Riverside that are
           experienced and ready for the real-world

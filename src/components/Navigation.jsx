@@ -8,25 +8,7 @@ import MenuItem from "./MenuItem";
 import { useState } from "react";
 import logo from "../../public/logo.png";
 import Image from "next/image";
-
-const items = [
-  {
-    name: "About",
-    link: "about",
-  },
-  {
-    name: "Projects",
-    link: "projects",
-  },
-  {
-    name: "Events",
-    link: "events",
-  },
-  {
-    name: "Board",
-    link: "board",
-  },
-];
+import { items } from "@/data/navigation";
 
 const Navigation = () => {
   const [selected, setSelected] = useState(0);
@@ -54,7 +36,7 @@ const Navigation = () => {
               {items.map((item, index) => (
                 <MenuItem
                   text={item.name}
-                  link={`/${item.link}`}
+                  link={item.link}
                   name={item.name}
                   key={index}
                   index={index}
