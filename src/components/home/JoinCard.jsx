@@ -20,7 +20,7 @@ const JoinCard = ({ text, icon, link, bgColor }) => {
       </p>
       <Link
         href={link}
-        className={`text-white ${bgColor} border-white border-2 py-1 px-4 hover:bg-white ${HOVER_CLASS_MAPPING[bgColor]} font-poppins font-semibold w-3/5 no-underline text-center`}
+        className={`text-white ${bgColor} border-white border-2 py-1 px-4 hover:bg-white ${HOVER_CLASS_MAPPING[bgColor]} font-poppins font-semibold w-3/5 no-underline text-center duration-300`}
       >
         Join
       </Link>
