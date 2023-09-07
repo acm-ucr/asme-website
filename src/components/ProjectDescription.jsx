@@ -26,11 +26,9 @@ const ProjectDescription = (props) => {
         {name.toUpperCase()}
       </p>
 
-      <div className="flex flex-row justify-end">
-        <p className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl pt-2 justify-end rotate-90 -translate-y-full absolute origin-top-right lg:top-[550px] top-80">
-          {name.toUpperCase()}
-        </p>
-      </div>
+      <p className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl pt-2 justify-end rotate-90 -translate-y-full absolute origin-top-right lg:top-[550px] top-80 right-0">
+        {name.toUpperCase()}
+      </p>
     </div>
   );
 };
