@@ -1,63 +1,62 @@
 "use client";
-import React from "react";
+
+import logo from "../../public/logo.png";
+import { items } from "@/data/navigation";
+import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
-import MenuItem from "./MenuItem";
-import { useState } from "react";
-import logo from "../../public/logo.png";
 import Image from "next/image";
-import { items } from "@/data/navigation";
 
 const Navigation = () => {
-  const [selected, setSelected] = useState(0);
-  const [isHovered, setIsHovered] = useState(0);
+  const [selected, setSelected] = useState("");
   return (
-    <>
-      <Navbar
-        className="flex flex-col justify-between bg-asme-white opacity-[85%] m-0 p-0 min-h-[64px] w-screen"
-        collapseOnSelect
-        expand="md"
-        fixed="top"
-      >
-        <div className="flex flex-row w-full justify-between m-0 items-center">
-          <Navbar.Brand className="m-0 p-0 flex items-center">
-            <Link
-              href="/"
-              className="no-underline m-0 flex items-center p-0"
-              onClick={() => setSelected("Logo")}
-            >
-              <Image src={logo} className="m-0 p-0 w-48" alt="logo" />
-            </Link>
-          </Navbar.Brand>
-          <Navbar.Collapse className="items-center md:justify-end justify-center">
-            <Nav className="font-poppins flex justify-evenly items-center pr-2">
-              {items.map((item, index) => (
-                <MenuItem
-                  text={item.name}
-                  link={item.link}
-                  name={item.name}
-                  key={index}
-                  index={index}
-                  onMouseOver={() => setIsHovered(item.name)}
-                  onMouseOut={() => setIsHovered(0)}
-                  selected={selected == item.name}
-                  onClick={() => setSelected(item.name)}
-                  Hovered={isHovered === item.name}
-                />
-              ))}
-            </Nav>
-          </Navbar.Collapse>{" "}
-          <Navbar.Toggle
-            className="list-unstyled !text-transparent border-0"
-            aria-controls="basic-navbar-nav"
+    <Navbar
+      collapseOnSelect
+      expand="md"
+      fixed="top"
+      className="w-full m-0 md:h-[8vh] p-0"
+    >
+      <div className="flex px-3 py-0 font-poppin w-full m-0 !bg-white/50 min-h-full justify-between items-center backdrop-blur-sm">
+        <Navbar.Brand className="p-0">
+          <Link
+            as={Link}
+            eventkey="1"
+            className="p-0 no-underline flex items-center gap-2"
+            href="/"
+            onClick={() => setSelected("")}
           >
-            <FaBars className=" text-asme-blue-500 text-xl" />
-          </Navbar.Toggle>
-        </div>
-      </Navbar>
-    </>
+            <Image src={logo} className="m-0 p-0 w-40" alt="logo" />
+          </Link>
+        </Navbar.Brand>
+        <Navbar.Collapse className="items-center md:justify-end justify-center flex">
+          <Nav className="mb-2 w-12/12 no-underline text-2xl flex items-center">
+            {items.map((item, index) => (
+              <Nav.Link
+                as={Link}
+                key={index}
+                href={item.link}
+                onClick={() => {
+                  setSelected(item.name);
+                }}
+                className={`hover:cursor-pointer mb-0 py-1 px-4 !text-asme-blue-600 text-xl whitespace-nowrap hover:!text-asme-blue-400 duration-300 ${
+                  selected === item.name ? "underline" : "no-underline"
+                }`}
+              >
+                {item.name}
+              </Nav.Link>
+            ))}
+          </Nav>
+        </Navbar.Collapse>
+        <Navbar.Toggle
+          className="list-unstyled !text-transparent border-0"
+          aria-controls="basic-navbar-nav"
+        >
+          <FaBars className=" text-white text-xl" />
+        </Navbar.Toggle>
+      </div>
+    </Navbar>
   );
 };
 

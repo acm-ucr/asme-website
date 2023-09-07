@@ -27,9 +27,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${abel.variable}`}>
-      <body className="flex flex-col items-center w-full">
+      <body>
         <Navigation />
-        {children}
+        <div className="w-full flex flex-col min-h-screen overflow-hidden items-center justify-center mb-20">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

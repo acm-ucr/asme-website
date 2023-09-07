@@ -1,19 +1,16 @@
 import React from "react";
 import Link from "next/link";
-import { HOVER_CLASS_MAPPING } from "@/data/joinCards";
 
-const JoinCard = ({ text, icon, link, bgColor }) => {
+const JoinCard = ({ text, icon, link, color, hover }) => {
   return (
     <div
-      className={`flex flex-col ${bgColor} items-center aspect-square justify-between py-4 px-2`}
+      className={`flex flex-col ${color} items-center aspect-square justify-between py-4 px-2 text-white font-poppins font-semibold`}
     >
       {icon}
-      <p className="text-light font-poppins font-semibold text-lg lg:text-xl mb-4 lg:m-0">
-        {text}
-      </p>
+      <p className="text-lg lg:text-xl mb-4 lg:m-0">{text}</p>
       <Link
         href={link}
-        className={`text-white ${bgColor} border-white border-2 py-1 px-4 hover:bg-white ${HOVER_CLASS_MAPPING[bgColor]} font-poppins font-semibold w-3/5 no-underline text-center duration-300`}
+        className={`no-underline bg-transparent border-white border-2 py-1 px-4 w-3/5 text-center duration-300 hover:!bg-white ${hover}`}
       >
         Join
       </Link>
