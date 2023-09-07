@@ -8,48 +8,27 @@ const ProjectDescription = (props) => {
   const picture2 = props.picture2;
 
   return (
-    <div className="relative">
-      <div className="flex flex-row relative h-40">
-        <div className="bg-asme-blue-400 w-56 h-16 top-12 absolute"></div>
-        <text className="bg-asme-blue-600 text-white text-2xl font-poppins font-bold w-52 h-16 top-14 pl-16 pt-3 absolute">
-          {name}
-        </text>
-      </div>
-
-      <div>
-        <div className="flex flex-row font-abel justify-center">
-          <p className="lg:w-[800px] lg:text-base text-sm w-72">
-            {description}
-          </p>
-        </div>
-
-        <div className="flex flex-col lg:flex-row justify-center items-center">
-          <Image
-            className="lg:w-[520px] lg:h-[350px] lg:pl-20 pt-3 lg:pr-1 w-72"
-            src={picture1}
-            alt="no image"
-          />
-          <Image
-            className="lg:w-[520px] lg:h-[350px] lg:pr-20 pt-3 lg:pl-1 w-72"
-            src={picture2}
-            alt="no image"
-          />
-        </div>
-      </div>
-
-      <p
-        className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl origin-top-left -rotate-90 pt-2"
-        style={{ textTransform: "uppercase" }}
-      >
+    <div className="flex flex-col relative">
+      <p className="self-start w-fit shadow-[1rem_-0.5rem_0_0] shadow-asme-blue-400 bg-asme-blue-600 text-white text-lg font-poppins font-bold py-2 px-4 m-3">
         {name}
       </p>
 
+      <p className="self-center lg:text-base text-sm w-10/12 md:w-2/3">
+        {description}
+      </p>
+
+      <div className="flex flex-col md:flex-row justify-center items-center w-10/12 self-center gap-3 m-3">
+        <Image className="w-10/12 md:w-1/2" src={picture1} alt="no image" />
+        <Image className="w-10/12 md:w-1/2" src={picture2} alt="no image" />
+      </div>
+
+      <p className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl origin-top-left -rotate-90 pt-2">
+        {name.toUpperCase()}
+      </p>
+
       <div className="flex flex-row justify-end">
-        <p
-          className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl pt-2 justify-end rotate-90 -translate-y-full absolute origin-top-right lg:top-[550px] top-80"
-          style={{ textTransform: "uppercase" }}
-        >
-          {name}
+        <p className="m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl pt-2 justify-end rotate-90 -translate-y-full absolute origin-top-right lg:top-[550px] top-80">
+          {name.toUpperCase()}
         </p>
       </div>
     </div>
