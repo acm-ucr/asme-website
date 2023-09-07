@@ -11,7 +11,7 @@ const ProjectsTab = () => {
         alt="bot"
       />
       <div className="flex flex-col w-3/5 md:ml-8 animate-fade-right animate-ease-linear">
-        <p className="text-2xl flex-wrap font-poppins font-bold text-asme-blue-500">
+        <p className="text-2xl flex-wrap font-poppins font-bold text-asme-blue-500 mt-5 md:mt-0">
           BattleBots
         </p>
         <p className="font-abel text-asme-blue-500 text-xl">

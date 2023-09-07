@@ -24,7 +24,7 @@ const Landing = () => {
         </p>
         <div className="mt-4 animate-fade-up animate-delay-[700ms] animate-once">
           <Link
-            href=""
+            href="/events"
             className="no-underline font-poppins border-white border-2 border-solid px-4 md:py-2 text-sm md:text-lg hover:bg-white/50 text-white hover:text-asme-blue-400 hover:scale-110 transition duration-200 ease-in-out"
           >
             Join Us

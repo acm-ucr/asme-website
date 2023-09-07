@@ -12,7 +12,7 @@ const ProjectTitle = () => {
             <div className="bg-asme-blue-500 w-2 h-2/3 inline-block left-6 top-0 absolute "></div>
           </div>
         </div>
-        <div className="bg-white absolute left-0 top-0 mt-3 mx-40 px-2 text-asme-blue-400 font-poppins font-bold p-1 text-2xl inline-flex items-center animate-fade-right animate-ease-linear">
+        <div className="bg-white absolute left-0 top-0 mt-3 mx-40 px-2 text-asme-blue-400 font-poppins font-bold p-1 text-lg md:text-2xl inline-flex items-center animate-fade-right animate-ease-linear">
           Projects
           <FaGear className="inline-flex ml-2 text-asme-blue-100" />
         </div>
