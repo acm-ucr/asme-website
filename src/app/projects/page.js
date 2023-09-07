@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "@/components/Header";
 import ProjectDescription from "@/components/ProjectDescription";
-import image1 from "../../../public/battlebot1.png";
-import image2 from "../../../public/battlebot2.png";
+import image1 from "../../../public/images/battlebot1.png";
+import image2 from "../../../public/images/battlebot2.png";
 
 const projects = () => {
   return (

@@ -13,11 +13,11 @@ const CalendarEvent = ({ events }) => {
   const [modalEvent, setModalEvent] = useState(null);
 
   return (
-    <section className="w-full flex justify-center items-center flex-col mt-[2vh] text-xl">
-      <div className="w-10/12 flex justify-center items-center text-xl">
-        <div className="h-[110vh] w-full relative text-xl mb-24">
+    <section className="w-full flex justify-center items-center flex-col mt-[2vh] text-base md:text-xl">
+      <div className="w-11/12 md:w-10/12 flex justify-center items-center text-base md:text-xl">
+        <div className="h-[90vh] md:h-[110vh] w-full relative text-base md:text-xl mb-24">
           <Calendar
-            className="font-poppins w-full m-0 p-0 text-2xl"
+            className="font-poppins w-full m-0 p-0 text-base md:text-xl"
             events={events}
             localizer={localizer}
             defaultView="month"

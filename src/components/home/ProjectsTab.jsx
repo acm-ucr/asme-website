@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bot from "../../../public/battleBot.png";
+import bot from "../../../public/images/battleBot.png";
 
 const ProjectsTab = () => {
   return (
