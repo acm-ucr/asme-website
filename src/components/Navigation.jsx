@@ -40,7 +40,7 @@ const Navigation = () => {
                 onClick={() => {
                   setSelected(item.name);
                 }}
-                className={`hover:cursor-pointer mb-0 py-1 px-4 !text-asme-blue-600 text-2xl whitespace-nowrap hover:!text-asme-blue-400 duration-300 ${
+                className={`hover:cursor-pointer mb-0 py-1 px-4 !text-asme-blue-600 text-xl whitespace-nowrap hover:!text-asme-blue-400 duration-300 ${
                   selected === item.name ? "underline" : "no-underline"
                 }`}
               >
