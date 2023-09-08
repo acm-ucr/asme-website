@@ -10,9 +10,9 @@ const WhatWeDoTitle = () => {
           <div className="bg-asme-blue-100 absolute left-16 top-3  w-[250px] h-[72px]"></div>
           <FaGear
             size={25}
-            className="inline-flex ml-2 text-asme-blue-100 top-2 left-4 absolute"
+            className="inline-flex ml-2 text-asme-blue-100 top-2 left-4 absolute animate-fade-right animate-ease-linear"
           />
-          <text className="text-2xl bg-white text-asme-blue-400 font-poppins font-bold left-1 top-9 absolute pr-[8px] ml-8">
+          <text className="text-lg md:text-2xl bg-white text-asme-blue-400 font-poppins font-bold left-1 top-9 absolute pr-[8px] ml-8 animate-fade-right animate-ease-linear">
             What We Do
           </text>
         </div>

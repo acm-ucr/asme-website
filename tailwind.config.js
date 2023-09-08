@@ -20,7 +20,6 @@ module.exports = {
           "blue-400": "#38769F",
           "blue-500": "#1A5582",
           "blue-600": "#133A5B",
-          blue: "#233646",
           transparentBlue: "#233646D9",
           textShadow: "#D7E3EB",
           white: "#FFFFFF",

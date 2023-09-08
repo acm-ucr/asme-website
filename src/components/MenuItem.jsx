@@ -7,7 +7,7 @@ const MenuItem = ({
   index,
   text,
   selected,
-  Hovered,
+  hovered,
   onClick,
   link,
   onMouseOver,

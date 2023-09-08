@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../public/logo-white.svg";
 import Image from "next/image";
-import { FaEnvelope, FaLink, FaFacebook, FaInstagram } from "react-icons/fa6";
+import { footer } from "@/data/footer";
 
 const Footer = () => {
   return (
@@ -24,24 +24,7 @@ const Footer = () => {
           </div>
           <div className="bg-white h-full w-1 lg:w-1.5 mx-3"></div>
           <div className="flex flex-col">
-            {[
-              {
-                href: "https://www.instagram.com/ucr.asme/",
-                icon: <FaInstagram className="text-white mb-1" size={28} />,
-              },
-              {
-                href: "mailto:ucr.asme@gmail.com",
-                icon: <FaEnvelope className="text-white mb-1" size={28} />,
-              },
-              {
-                href: "https://highlanderlink.ucr.edu/organization/asme",
-                icon: <FaLink className="text-white mb-1" size={28} />,
-              },
-              {
-                href: "https://www.facebook.com/groups/1694944664070229/",
-                icon: <FaFacebook className="text-white mb-1" size={28} />,
-              },
-            ].map(({ href, icon }, index) => (
+            {footer.map(({ href, icon }, index) => (
               <a
                 href={href}
                 target="_blank"
