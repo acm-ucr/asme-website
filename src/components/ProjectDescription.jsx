@@ -1,12 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const ProjectDescription = (props) => {
-  const name = props.name;
-  const description = props.description;
-  const picture1 = props.picture1;
-  const picture2 = props.picture2;
-
+const ProjectDescription = ({ name, description, picture1, picture2 }) => {
   return (
     <div className="flex flex-col relative">
       <p className="self-start w-fit shadow-[1rem_-0.5rem_0_0] shadow-asme-blue-400 bg-asme-blue-600 text-white text-lg font-poppins font-bold py-2 px-4 m-3">
