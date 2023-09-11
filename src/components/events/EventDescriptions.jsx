@@ -1,4 +1,4 @@
-// "use client"; // might be needed; but can only be tested after event fetching works
+"use client"; // probably is needed, runtime explodes when you don't "use client"
 
 import React from "react";
 import { motion } from "framer-motion";
