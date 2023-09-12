@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import JoinCards from "./JoinCards.jsx";
 
 const JoinUsSection = () => {

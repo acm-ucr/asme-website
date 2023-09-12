@@ -1,4 +1,3 @@
-import React from "react";
 import header from "../../public/header.png"; // this image is a cropped version of the one on figma!!
 import Image from "next/image";
 const Header = ({ title }) => {

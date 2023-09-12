@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGear } from "react-icons/fa6";
 
 const WhatWeDoTitle = () => {

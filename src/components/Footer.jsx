@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../public/logo-white.svg";
 import Image from "next/image";
 import { footer } from "@/data/footer";
