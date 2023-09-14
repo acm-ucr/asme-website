@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Header from "@/components/Header";
 import Board from "@/components/board/Board";
 import { boards } from "@/data/boards";

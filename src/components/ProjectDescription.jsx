@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 const ProjectDescription = ({ name, description, picture1, picture2 }) => {
