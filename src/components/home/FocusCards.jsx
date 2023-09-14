@@ -1,4 +1,3 @@
-import React from "react";
 import { Row, Col } from "react-bootstrap";
 import FocusCard from "./FocusCard";
 import { cardList } from "@/data/focusCards";

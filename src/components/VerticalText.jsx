@@ -1,5 +1,3 @@
-import React from "react";
-
 const VerticalText = ({ text, left = true }) => {
   return (
     <p

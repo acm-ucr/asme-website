@@ -1,4 +1,3 @@
-import React from "react";
 import { joinList } from "@/data/joinCards";
 import JoinCard from "./JoinCard";
 import { Row, Col } from "react-bootstrap";
