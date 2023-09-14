@@ -1,4 +1,5 @@
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import FocusCard from "./FocusCard";
 import { cardList } from "@/data/focusCards";
 const FocusCards = () => {
