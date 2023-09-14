@@ -1,4 +1,3 @@
-import React from "react";
 import { BsGearFill } from "react-icons/bs";
 
 const Title = ({ title }) => {

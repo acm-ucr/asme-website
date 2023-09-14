@@ -1,5 +1,3 @@
-import React from "react";
-
 const FocusCard = ({ name, text, icon, bgColor }) => {
   return (
     <div
