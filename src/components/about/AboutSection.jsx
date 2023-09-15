@@ -1,6 +1,6 @@
 import Image from "next/image";
-import ASME1 from "../../../public/images/ASME1.png";
-import ASME2 from "../../../public/images/ASME2.png";
+import ASME1 from "../../../public/images/ASME1.webp";
+import ASME2 from "../../../public/images/ASME2.webp";
 import Title from "../projects/Title";
 import { motion } from "framer-motion";
 

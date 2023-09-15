@@ -1,6 +1,6 @@
 "use client";
 
-import logo from "../../public/logo.png";
+import logo from "../../public/logo.webp";
 import { items } from "@/data/navigation";
 import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";

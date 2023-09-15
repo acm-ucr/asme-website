@@ -13,8 +13,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "ASME at UCR",
-  description:
-    "The official website for ASME club at UCR, created by ACM at UCR",
+  description: "American Society of Mechanical Engineers at UCR",
 };
 
 export default function RootLayout({ children }) {
