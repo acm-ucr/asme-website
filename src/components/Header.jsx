@@ -1,4 +1,4 @@
-import header from "../../public/header.png";
+import header from "../../public/header.webp";
 import Image from "next/image";
 import { motion } from "framer-motion";
 

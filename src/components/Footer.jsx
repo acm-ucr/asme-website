@@ -1,6 +1,7 @@
 import logo from "../../public/logo-white.svg";
 import Image from "next/image";
-import { footer } from "@/data/footer";
+import { links } from "@/data/links";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -22,16 +23,16 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-col border-l-white border-l-4 pl-3 ml-3">
-            {footer.map(({ href, icon }, index) => (
-              <a
-                href={href}
+            {links.map((link, index) => (
+              <Link
+                href={link.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 key={index}
-                className="hover:scale-110 transition-transform duration-300"
+                className="hover:scale-110 transition-transform duration-300 text-xl text-white m-1"
               >
-                {icon}
-              </a>
+                {link.icon}
+              </Link>
             ))}
           </div>
         </div>
