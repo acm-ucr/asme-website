@@ -13,11 +13,11 @@ const Footer = () => {
         />
         <div className="flex flex-row h-1/2 absolute right-4 lg:right-8 bottom-4">
           <div className="flex flex-col h-full justify-end items-end">
-            <p className="text-white m-0 text-xl lg:text-3xl">contact us</p>
-            <p className="text-white m-0 text-lg lg:text-3xl">
+            <p className="text-white m-0 text-base md:text-xl">contact us</p>
+            <p className="text-white m-0 text-base md:text-xl">
               900 University Ave,
             </p>
-            <p className="text-white m-0 text-lg lg:text-3xl">
+            <p className="text-white m-0 text-base md:text-xl">
               Riverside, CA 92521
             </p>
           </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={index}
-                className="hover:scale-90 transition-transform duration-300"
+                className="hover:scale-110 transition-transform duration-300"
               >
                 {icon}
               </a>
