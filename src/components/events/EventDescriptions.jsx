@@ -1,6 +1,5 @@
-"use client";
+"use client"; // probably is needed, runtime explodes when you don't "use client"
 
-import React from "react";
 import { motion } from "framer-motion";
 import EventDescription from "./EventDescription";
 import UpcomingEvents from "./UpcomingEvents";

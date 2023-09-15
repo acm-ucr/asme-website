@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "@/components/Header";
 import ProjectDescription from "@/components/ProjectDescription";
 import image1 from "../../../public/images/battlebot1.png";

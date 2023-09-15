@@ -1,5 +1,3 @@
-"use client";
-import React from "react";
 import FocusCards from "./FocusCards";
 import WhatWeDoTitle from "./WhatWeDoTitle";
 import VerticalText from "../VerticalText";
