@@ -1,4 +1,5 @@
 import { FaGear } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const WhatWeDoTitle = () => {
   return (
@@ -9,11 +10,23 @@ const WhatWeDoTitle = () => {
           <div className="bg-asme-blue-100 absolute left-16 top-3  w-[250px] h-[72px]"></div>
           <FaGear
             size={25}
-            className="inline-flex ml-2 text-asme-blue-100 top-2 left-4 absolute animate-fade-right animate-ease-linear"
+            className="inline-flex ml-2 text-asme-blue-100 top-2 left-4 absolute"
           />
-          <text className="text-lg md:text-2xl bg-white text-asme-blue-400 font-poppins font-bold left-1 top-9 absolute pr-[8px] ml-8 animate-fade-right animate-ease-linear">
+          <motion.p
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            transition={{
+              type: "tween",
+              ease: "easeInOut",
+              duration: 1,
+            }}
+            className="p-1 text-lg md:text-2xl bg-white absolute text-asme-blue-400 font-poppins font-bold left-1 top-9 pr-[8px] ml-8"
+          >
             What We Do
-          </text>
+          </motion.p>
         </div>
 
         <div className="flex flex-col w-40 h-32 justify-start">

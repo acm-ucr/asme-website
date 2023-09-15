@@ -26,6 +26,8 @@
     "react-icons": "^4.10.1"
   },
   "devDependencies": {
+    "tailwindcss": "3.3.2",
+    "postcss": "8.4.24",
     "eslint": "^8.42.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-next": "^13.4.6",
