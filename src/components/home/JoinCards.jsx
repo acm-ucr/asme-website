@@ -1,3 +1,4 @@
+"use client"
 import { motion } from "framer-motion";
 import { joinList } from "@/data/joinCards";
 import JoinCard from "./JoinCard";
