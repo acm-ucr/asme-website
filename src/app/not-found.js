@@ -1,5 +1,3 @@
-import React from "react";
-
 const notFound = () => {
   return (
     <div className="flex flex-col mt-[240px]">

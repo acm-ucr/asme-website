@@ -1,9 +1,8 @@
 "use client";
-
-import React from "react";
 import { joinList } from "@/data/joinCards";
 import JoinCard from "./JoinCard";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 const JoinCards = () => {
   return (
     <Row className="w-[95%] lg:w-4/5 relative z-10">

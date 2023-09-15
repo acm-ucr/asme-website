@@ -1,5 +1,3 @@
-import React from "react";
-
 const UpcomingEvents = () => {
   return (
     <div className="mt-20 ml-10">
