@@ -1,3 +1,4 @@
+"use client";
 import { joinList } from "@/data/joinCards";
 import JoinCard from "./JoinCard";
 import Col from "react-bootstrap/Col";

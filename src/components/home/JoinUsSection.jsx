@@ -1,4 +1,3 @@
-"use client";
 import JoinCards from "./JoinCards.jsx";
 
 const JoinUsSection = () => {

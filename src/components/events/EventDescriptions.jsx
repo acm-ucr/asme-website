@@ -1,4 +1,4 @@
-"use client";
+"use client"; // probably is needed, runtime explodes when you don't "use client"
 
 import { motion } from "framer-motion";
 import EventDescription from "./EventDescription";
