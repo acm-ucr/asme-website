@@ -21,8 +21,8 @@ const EventDescriptions = ({ events }) => {
             </motion.div>
           ))
         ) : (
-          <p className="font-poppins text-lg w-full text-center font-bold text-asme-blue-300">
-            no events
+          <p className="font-poppins text-lg w-full text-center font-bold text-asme-blue-300 mt-8">
+            no upcoming events
           </p>
         )}
       </motion.div>
