@@ -27,11 +27,11 @@ const ProjectDescription = () => {
       </div>
 
       <p className="z-0 m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl origin-top-left -rotate-90 pt-2">
-        {name.toUpperCase()}
+        BATTLEBOTS
       </p>
 
       <p className="z-0 m-0 p-0 whitespace-nowrap font-bold font-poppins text-asme-textShadow text-4xl lg:text-6xl pt-2 justify-end rotate-90 -translate-y-full absolute origin-top-right lg:top-[550px] top-80 right-0">
-        {name.toUpperCase()}
+        BATTLEBOTS
       </p>
     </div>
   );
