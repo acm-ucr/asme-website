@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        header: "url('/header.png')",
-        logo: "url('/logo.png')",
+        header: "url('/header.webp')",
+        logo: "url('/logo.webp')",
       },
       colors: {
         asme: {

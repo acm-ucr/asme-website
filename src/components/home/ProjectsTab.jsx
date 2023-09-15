@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bot from "../../../public/images/battleBot.png";
+import bot from "../../../public/battlebots/IMG_0707.webp";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -47,12 +47,23 @@ const ProjectsTab = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore
         </motion.p>
-        <Link
-          href="/projects"
-          className="font-poppins border-2 border-asme-blue-600 px-3 py-1 text-base md:text-xl w-fit text-asme-blue-600 no-underline"
+        <motion.div
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+          }}
+          transition={{
+            type: "spring",
+          }}
         >
-          More
-        </Link>
+          <Link
+            href="/projects"
+            className="font-poppins border-2 border-asme-blue-600 px-3 py-1 text-base md:text-xl w-fit text-asme-blue-600 no-underline"
+          >
+            More
+          </Link>
+        </motion.div>
       </div>
     </div>
   );
