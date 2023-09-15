@@ -7,7 +7,7 @@ const Title = ({ title }) => {
       initial={{ opacity: 0, x: -30 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ type: "tween", ease: "easeInOut", duration: 0.7 }}
-      className="w-fit border-b-4 border-asme-blue-400 my-5 md:my-10 flex items-center"
+      className="w-fit border-b-4 border-asme-blue-400 my-5 md:my-10 flex items-center self-start"
     >
       <p className="text-asme-blue-400 text-lg lg:text-2xl font-bold mb-1 ml-3 md:ml-8">
         {title}

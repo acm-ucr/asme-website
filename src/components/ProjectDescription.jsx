@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image1 from "../../public/images/battlebot1.png";
-import image2 from "../../public/images/battlebot2.png";
+import image1 from "../../public/battlebots/IMG_9908.png";
+import image2 from "../../public/battlebots/IMG_7813.png";
 import logo from "../../public/battleBots/Logo2022.png";
 
 const ProjectDescription = () => {

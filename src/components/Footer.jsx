@@ -21,8 +21,7 @@ const Footer = () => {
               Riverside, CA 92521
             </p>
           </div>
-          <div className="bg-white h-full w-1 lg:w-1.5 mx-3"></div>
-          <div className="flex flex-col">
+          <div className="flex flex-col border-l-white border-l-4 pl-3 ml-3">
             {footer.map(({ href, icon }, index) => (
               <a
                 href={href}

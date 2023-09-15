@@ -6,13 +6,13 @@ import ProjectsSection from "@/components/home/ProjectsSection";
 import JoinUsSection from "@/components/home/JoinUsSection";
 const Home = () => {
   return (
-    <div className="w-screen">
+    <>
       <Landing />
       <WhoWeAreSection />
       <WhatWeDoSection />
       <ProjectsSection />
       <JoinUsSection />
-    </div>
+    </>
   );
 };
 

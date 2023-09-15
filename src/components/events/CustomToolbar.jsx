@@ -1,6 +1,6 @@
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import filters from "./Filters.jsx";
+import filters from "@/data/filters";
 const monthNames = [
   "January",
   "February",

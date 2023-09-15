@@ -6,7 +6,7 @@ import UpcomingEvents from "./UpcomingEvents";
 
 const EventDescriptions = ({ events }) => {
   return (
-    <div className="w-full flex-col flex">
+    <div className="flex-col flex w-10/12">
       <UpcomingEvents />
       <motion.div className="self-center w-9/12">
         {events.length > 0 ? (

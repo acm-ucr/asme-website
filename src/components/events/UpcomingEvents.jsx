@@ -7,7 +7,6 @@ const UpcomingEvents = () => {
           Upcoming Events
         </div>
       </div>
-      <div className="bg-asme-blue-500 w-8 h-px p-px"></div>
     </div>
   );
 };

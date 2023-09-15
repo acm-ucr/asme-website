@@ -14,7 +14,6 @@ const EventDescription = ({ event }) => {
           {event.start.toLocaleDateString()}
         </p>
         <p className="text-xs md:text-base m-0 pl-2 pr-3">
-          {" "}
           {event.start.toLocaleTimeString().split(":")[0]}&nbsp;to&nbsp;
           {event.end.toLocaleTimeString().split(":")[0]}&nbsp;
           {event.end.toLocaleTimeString().split(":")[2].split(" ")[1]}
