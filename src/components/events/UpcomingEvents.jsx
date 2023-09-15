@@ -1,5 +1,3 @@
-import React from "react";
-
 const UpcomingEvents = () => {
   return (
     <div className="mt-20 ml-10">
@@ -9,7 +7,6 @@ const UpcomingEvents = () => {
           Upcoming Events
         </div>
       </div>
-      <div className="bg-asme-blue-500 w-8 h-px p-px"></div>
     </div>
   );
 };

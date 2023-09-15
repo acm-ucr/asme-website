@@ -13,28 +13,26 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "autoprefixer": "10.4.14",
     "axios": "^1.5.0",
     "bootstrap": "^5.3.0",
-    "framer-motion": "^10.12.18",
-    "moment": "^2.29.4",
-    "next": "^13.4.11",
-    "postcss": "8.4.24",
-    "react": "18.2.0",
+    "framer-motion": "^10.16.4",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
     "react-big-calendar": "^1.8.2",
-    "react-bootstrap": "^2.8.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.10.1",
-    "tailwindcss": "3.3.2",
-    "tailwindcss-animated": "^1.0.1"
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.15",
     "eslint": "^8.42.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-next": "^13.4.6",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-next": "^13.4.19",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.0",
-    "prettier": "^2.8.8"
+    "postcss": "^8.4.29",
+    "prettier": "^2.8.8",
+    "tailwindcss": "3.3.2"
   }
 }

@@ -1,5 +1,6 @@
-import React from "react";
-import { Row, Col } from "react-bootstrap";
+"use client";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import FocusCard from "./FocusCard";
 import { cardList } from "@/data/focusCards";
 const FocusCards = () => {
@@ -12,6 +13,7 @@ const FocusCards = () => {
             text={card.text}
             icon={card.icon}
             bgColor={card.bgColor}
+            index={index}
           />
         </Col>
       ))}
