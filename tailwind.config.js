@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // Note: use root folder for static assets served from public/
         header: "url('/header.png')",
         logo: "url('/logo.png')",
       },
@@ -28,7 +27,6 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
-        abel: ["var(--font-abel)"],
       },
     },
   },

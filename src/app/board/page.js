@@ -1,9 +1,9 @@
 "use client";
 import Header from "@/components/Header";
 import Board from "@/components/board/Board";
-import { boards } from "@/data/boards";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { boards } from "@/data/boards";
 
 const board = () => {
   return (

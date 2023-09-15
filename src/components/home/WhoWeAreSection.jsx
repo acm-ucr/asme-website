@@ -20,7 +20,7 @@ const WhoWeAreSection = () => {
           initial="hidden"
           whileInView="show"
           variants={animation}
-          className="font-abel mb-1 leading-5 w-5/6 text-base md:text-xl mx-5 mt-6 md:mt-20"
+          className="mb-1 leading-5 w-5/6 text-base md:text-xl mx-5 mt-6 md:mt-20"
         >
           We are an organization that builds rockets, unmanned aircrafts, robots
           (among other things) out of a love for engineering and because we
@@ -41,7 +41,7 @@ const WhoWeAreSection = () => {
         >
           <Link
             href="/events"
-            className="py-1 px-2 font-poppins hover:cursor-pointer hover:bg-asme-blue-400 hover:text-white w-40 text-asme-blue-400 border-2 border-asme-blue-400 text-sm md:text-base"
+            className="py-1 px-2 font-poppins hover:cursor-pointer hover:bg-asme-blue-400 hover:text-white w-40 text-asme-blue-400 border-2 border-asme-blue-400 text-sm md:text-base no-underline"
           >
             Upcoming Events
           </Link>

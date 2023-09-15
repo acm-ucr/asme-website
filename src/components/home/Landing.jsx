@@ -46,7 +46,7 @@ const Landing = () => {
         <motion.p
           variants={animation}
           transition={{ ...transition, delay: 0.9 }}
-          className="text-right font-abel text-sm md:text-2xl m-0"
+          className="text-right text-sm md:text-2xl m-0"
         >
           ASME seeks to develop well-rounded engineers at UC Riverside that are
           experienced and ready for the real-world

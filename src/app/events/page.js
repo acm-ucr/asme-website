@@ -28,13 +28,11 @@ const EvnetsPage = () => {
       });
   }, []);
   return (
-    <div className="w-full flex flex-col items-center justify-center">
+    <>
       <Header title="Events" />
-      <div className="w-10/12">
-        <CalendarEvent events={events} />
-        <EventDescriptions events={events} />
-      </div>
-    </div>
+      <CalendarEvent events={events} />
+      <EventDescriptions events={events} />
+    </>
   );
 };
 

@@ -22,12 +22,12 @@ const WhoWeAreTitle = () => {
           Who We Are
           <FaGear className="inline-flex ml-2 text-asme-blue-100" />
         </motion.div>
-        <div className="bg-asme-blue-100 w-40 h-14 md:h-32"></div>
+        <div className="bg-asme-blue-100 w-40 h-14 md:h-32" />
       </div>
       <div className="w-40 h-12 md:h-32 relative">
-        <div className="bg-asme-blue-200 w-2 h-2/3 inline-block right-6 top-0 absolute "></div>
-        <div className="bg-asme-blue-400 w-2 h-1/2 inline-block right-3 top-0 absolute "></div>
-        <div className="bg-asme-blue-500 w-2 h-full inline-block right-0 top-0 absolute "></div>
+        <div className="bg-asme-blue-200 w-2 h-2/3 inline-block right-6 top-0 absolute " />
+        <div className="bg-asme-blue-400 w-2 h-1/2 inline-block right-3 top-0 absolute " />
+        <div className="bg-asme-blue-500 w-2 h-full inline-block right-0 top-0 absolute " />
       </div>
     </div>
   );
