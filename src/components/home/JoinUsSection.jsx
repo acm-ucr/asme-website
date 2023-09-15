@@ -1,4 +1,5 @@
 import JoinCards from "./JoinCards.jsx";
+import { motion } from "framer-motion";
 
 const JoinUsSection = () => {
   return (
@@ -10,9 +11,21 @@ const JoinUsSection = () => {
           <div className="bg-asme-blue-400 w-2 h-8 inline-block left-3 top-0 mr-1"></div>
           <div className="bg-asme-blue-500 w-2 h-14inline-block left-6 top-0 mr-1"></div>
         </div>
-        <div className="bg-white absolute left-0 top-5 text-asme-blue-400 font-poppins font-bold text-lg md:text-2xl">
+        <motion.div
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+          }}
+          transition={{
+            type: "tween",
+            ease: "easeInOut",
+            duration: 1,
+          }}
+          className="bg-white absolute left-0 top-5 text-asme-blue-400 font-poppins font-bold text-lg md:text-2xl"
+        >
           <p className="px-16 my-0 py-2">Join Us</p>
-        </div>
+        </motion.div>
       </div>
       <JoinCards />
     </div>

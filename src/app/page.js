@@ -1,3 +1,4 @@
+"use client";
 import Landing from "@/components/home/Landing";
 import WhatWeDoSection from "@/components/home/WhatWeDoSection";
 import WhoWeAreSection from "@/components/home/WhoWeAreSection";

@@ -13,6 +13,7 @@ const FocusCards = () => {
             text={card.text}
             icon={card.icon}
             bgColor={card.bgColor}
+            index={index}
           />
         </Col>
       ))}

@@ -27,6 +27,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${abel.variable}`}>
+      <head>
+        <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+      </head>
       <body>
         <Navigation />
         <div className="w-full flex flex-col min-h-screen overflow-hidden items-center justify-center mb-20">
