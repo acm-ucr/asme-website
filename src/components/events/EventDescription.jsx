@@ -14,9 +14,17 @@ const EventDescription = ({ event }) => {
           {event.start.toLocaleDateString()}
         </p>
         <p className="text-xs md:text-base m-0 pl-2 pr-3">
-          {event.start.toLocaleTimeString().split(":")[0]}&nbsp;to&nbsp;
-          {event.end.toLocaleTimeString().split(":")[0]}&nbsp;
-          {event.end.toLocaleTimeString().split(":")[2].split(" ")[1]}
+          {!event.allDay && (
+            <>
+              <p className="m-0">{event.start.toLocaleDateString()}</p>
+              <p className="m-0 pl-2 pr-3">
+                {event.start.toLocaleTimeString().split(":")[0]}&nbsp;to&nbsp;
+                {event.end.toLocaleTimeString().split(":")[0]}&nbsp;
+                {event.end.toLocaleTimeString().split(":")[2].split(" ")[1]}
+              </p>
+            </>
+          )}
+          <p className="m-0 font-bold">{event.location}</p>
         </p>
         <p className="text-xs md:text-base m-0 font-bold">{event.location}</p>
       </div>
@@ -28,14 +36,10 @@ const EventDescription = ({ event }) => {
       <div
         className={
           "w-40 font-playfair text-center text-sm md:text-lg self-end " +
-          (event.description?.startsWith("Social")
-            ? "text-white bg-asme-blue-400"
-            : event.description.startsWith("General Meeting")
-            ? "text-black bg-asme-blue-200"
-            : "text-white bg-asme-blue-300")
+          event.color
         }
       >
-        {event.description.split(":")[0]}
+        {event.description?.split(":")[0]}
       </div>
     </div>
   );
