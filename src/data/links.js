@@ -4,7 +4,7 @@ export const links = [
     text: "instagram",
     icon: <FaInstagram />,
     link: "https://www.instagram.com/ucr.asme/",
-    hover: "text-white hover:!text-asme-blue-400",
+    hover: "text-white hover:!text-asme-blue-300",
     color: "bg-asme-blue-300",
   },
   {
@@ -25,7 +25,7 @@ export const links = [
     text: "highlander link",
     icon: <FaLink />,
     link: "https://highlanderlink.ucr.edu/organization/asme",
-    hover: "text-white hover:!text-asme-blue-400",
+    hover: "text-white hover:!text-asme-blue-600",
     color: "bg-asme-blue-600",
   },
 ];

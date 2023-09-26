@@ -48,7 +48,9 @@ const ProjectsTab = () => {
           eiusmod tempor incididunt ut labore et dolore
         </motion.p>
         <motion.div
+          className="w-fit my-4"
           initial={{ opacity: 0, x: -30 }}
+          whileHover={{ scale: 1.1 }}
           whileInView={{
             opacity: 1,
             x: 0,
