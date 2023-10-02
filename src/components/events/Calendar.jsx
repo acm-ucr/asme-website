@@ -11,16 +11,21 @@ const localizer = momentLocalizer(moment);
 
 const CalendarEvent = ({ events }) => {
   const [event, setEvent] = useState(null);
+  const [date, setDate] = useState(new Date());
 
   return (
     <div className="w-9/12 md:w-10/12 flex justify-center items-center text-base md:text-xl">
       <div className="h-[90vh] md:h-[110vh] w-full relative text-base md:text-xl mb-24">
         <Calendar
           className="font-poppins w-full m-0 p-0 text-base md:text-xl"
+          date={date}
           events={events}
           localizer={localizer}
           defaultView="month"
           views={["month"]}
+          onNavigate={(newDate) => {
+            setDate(newDate);
+          }}
           components={{
             event: CustomEvent,
             toolbar: CustomToolbar,

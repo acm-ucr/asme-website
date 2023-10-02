@@ -20,7 +20,7 @@ const Modal = ({ event, setEvent }) => {
           {event.end.toLocaleTimeString().split(":")[2].split(" ")[1]}
         </p>
         <div className="md:text-lg text-sm p-2">
-          {event.description.replace(event.description.split(" ")[0], "")}
+          {event.description?.replace(event.description.split(" ")[0], "")}
         </div>
       </div>
     </div>
