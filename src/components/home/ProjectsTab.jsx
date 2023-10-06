@@ -44,8 +44,13 @@ const ProjectsTab = () => {
           }}
           className="text-asme-blue-500 text-xl"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore
+          Hello, we are Highlander Combat Robotics! We are a Battle Bots style
+          club where 2 robots go head to head in an arena trying to tear each
+          other to shreds. In our club members are split up into sub teams where
+          they design, prototype, build, and test a fully working robot. We are
+          a very new project on campus (founded in 2022) and are looking to grow
+          our club with your help. If you are interested please join our discord
+          to get more info or try to attend one of our meetings!
         </motion.p>
         <motion.div
           className="w-fit my-4"
