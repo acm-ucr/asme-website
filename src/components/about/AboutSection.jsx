@@ -19,13 +19,12 @@ const AboutSection = () => {
         }}
         className="text-sm md:text-lg w-3/4"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        ASME seeks to develop well-rounded engineers at UC Riverside that are
+        experienced and ready for the real world. We are an organization that
+        robots (among other things) out of a love for engineering and because we
+        understand the need for competent engineers worldwide. Through the
+        various projects we are involved in, we can gain invaluable engineering
+        experience before moving into the workforce. skills.
       </motion.p>
       <motion.p
         initial={{ opacity: 0, y: 30 }}
@@ -38,13 +37,11 @@ const AboutSection = () => {
         }}
         className="text-sm md:text-lg w-3/4 mt-4"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        They say, &#34;It&#39;s not about what you know, but who you know.&#34;
+        We have a growing network of talented students/engineers. Through our
+        professional development, outreach, volunteering events, and workshops,
+        this is your chance to meet experienced engineers, and other students,
+        and to learn marketable
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -72,32 +69,11 @@ const AboutSection = () => {
         }}
         className="text-sm md:text-lg w-3/4"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </motion.p>
-      <motion.p
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          type: "tween",
-          ease: "easeInOut",
-          duration: 0.7,
-          delay: 0.3,
-        }}
-        className="text-sm md:text-lg w-3/4 mt-4"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        They say, &#34;It&#39;s not about what you know, but who you know.&#34;
+        We have a growing network of talented students/engineers. Through our
+        professional development, outreach, volunteering events, and workshops,
+        this is your chance to meet experienced engineers, and other students,
+        and to learn marketable
       </motion.p>
     </>
   );
