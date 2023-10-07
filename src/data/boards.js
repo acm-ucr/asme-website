@@ -1,4 +1,3 @@
-import boardPlaceholder from "../../public/boards/board.png";
 import DangTieu from "../../public/boards/DangTieu.webp";
 import TimothyLe from "../../public/boards/TimothyLe.webp";
 import LesleyGalvan from "../../public/boards/LesleyGalvan.webp";
@@ -15,11 +14,6 @@ export const boards = [
     name: "Timothy Le",
     position: "Vice President",
     image: TimothyLe,
-  },
-  {
-    name: "Vacant",
-    position: "Secretary",
-    image: boardPlaceholder,
   },
   {
     name: "James Tam",
